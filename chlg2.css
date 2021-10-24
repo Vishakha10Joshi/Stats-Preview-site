@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bgd{
+    background-color: rgb(2, 0, 10);
+}
+.section{
+    background-color: rgb(16, 6, 32);
+    width: 75%;
+    height: 400px;
+    margin: 100px auto;
+    border-radius: 8px;
+    position: relative;
+}
+.section img{
+    height: 400px;
+    width: 500px;
+    position: relative;
+    left: 525px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius:8px ;
+    filter: opacity(50%);
+}
+h1{
+    color: white;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    font-size: 35px;
+    margin-right:550px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.word{
+    color: rgb(123, 68, 155);
+    font-size: 35px;
+}
+.msg{
+    color: rgb(180, 166, 166);
+    position: absolute;
+    top: 160px;
+    width: 350px;
+    margin-left: 60px;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+.list{
+    color: aliceblue;
+    display: flex;
+    list-style: none;
+    position: absolute;
+    top: 300px;
+}
+.list li{
+    width: 10%;
+    margin: 20px 40px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(141, 148, 148);
+    font-size: 15px;
+    
+}
+@media (max-width:600px) {
+    .body{
+        margin: 100px 30px;
+    }
+    .bgd{
+        width: 296px;
+        margin: 0 30px;
+    }
+    .section{
+       margin: 50px auto;
+        width: 296px;
+        height: 680px;
+        position:relative;
+        left: 10px;
+    }
+    .section img{
+        width: 296px;
+        height: 230px;
+        position: relative;
+        left: 1px;
+        border-top-left-radius: 8px;
+        margin-bottom: 20px;
+    }
+    h1{
+        position:relative;
+        top: 20px;
+        font-size: 20px;
+        width: 220px;
+        left: 50px;
+        text-align: center;
+    }
+    .word{
+        font-size: 20px;
+    }
+    .msg{
+        position: relative;
+        top: 40px;
+        text-align: center;
+        width: 290px;
+        margin-left: 10px;
+    }
+    .list{
+        position: relative;
+        top: 70px;
+        display: inline;
+    }
+    .list li{
+        margin: 10px 150px;
+        width: 2px;
+        text-align: center;
+    }
+}
